@@ -1,0 +1,14 @@
+name: My wf
+on: push
+##workflow_dispatch
+
+jobs:
+  my-fisrt-job:
+    runs: ubuntu-latest
+    steps:
+      - run: echo "hello!"
+
+    my-fisrt-job:
+      runs: ubuntu-latest
+      steps:
+        - run: echo "hello!"
